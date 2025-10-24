@@ -1,39 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f8ff;
-            color: #333;
-            margin: 40px;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
 
-        h1 {
-            color: #2e8b57;
-            text-transform: capitalize;
-        }
+    header {
+      background-color: #2e8b57;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
 
-        p {
-            font-size: 18px;
-            margin-bottom: 20px;
-        }
+    nav {
+      background-color: #333;
+      overflow: hidden;
+    }
 
-        h3 {
-            margin-left: 20px;
-            color: #4682b4;
-        }
-    </style>
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    .container {
+      padding: 40px;
+    }
+
+    h1 {
+      color: #2e8b57;
+      text-transform: capitalize;
+    }
+
+    h2 {
+      color: #4682b4;
+    }
+
+    ul {
+      margin-left: 40px;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 14px;
+      color: #666;
+      text-align: center;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+  </style>
 </head>
 <body>
-    <h1>my name is Praveen S</h1>
-    <p>3rd year Anna university Madras Institute of Technology student</p>
-    <h1>hobby</h1>
-    <h3>games</h3>
-    <h3>design</h3>
-    <h3>reading books</h3>
+  <header>
+    <h1>Welcome to Praveen S's Portfolio</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="section" id="about">
+      <h2>About Me</h2>
+      <p>I'm Praveen S, a 3rd year student at Anna University, Madras Institute of Technology. I'm passionate about technology, design, and continuous learning.</p>
+    </div>
+
+    <div class="section" id="hobbies">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Playing video games</li>
+        <li>Graphic design and UI/UX</li>
+        <li>Reading science fiction and tech books</li>
+      </ul>
+    </div>
+
+    <div class="section" id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Python programming</li>
+        <li>Web development (HTML, CSS, JavaScript)</li>
+        <li>Adobe Photoshop and Illustrator</li>
+      </ul>
+    </div>
+
+    <div class="section" id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Portfolio Website:</strong> A personal website to showcase my work and skills.</li>
+        <li><strong>Smart Attendance System:</strong> Built using Python and OpenCV for facial recognition.</li>
+        <li><strong>UI Design for E-learning App:</strong> Designed a user-friendly interface for an educational platform.</li>
+      </ul>
+    </div>
+
+    <div class="section" id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: praveen.s@example.com</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/praveens" target="_blank">linkedin.com/in/praveens</a></p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Praveen S | Designed with ❤️ and HTML/CSS
+  </footer>
 </body>
 </html>
